@@ -1,0 +1,163 @@
+header{
+  background-color: rgb(75, 74, 74);
+  color: white;
+  padding:15px 30px;
+  display:flex;
+  justify-content: space-between;
+}
+section{
+  margin:15px 0px;
+}
+a{
+  color:white;
+}
+a:hover{
+  color:rgb(128, 215, 241);
+}
+nav{
+  margin-top:32px;
+}
+/* #position{
+ 
+} */
+#name_position{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  height:30px;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+}
+.img{
+  display: flex;
+  border-bottom: 1px solid gray;
+
+}
+h1{
+  font-size: 2rem;
+  margin-bottom:0px;
+}
+h3{
+  font-size:1.5rem;
+  margin:10px 0px;
+}
+h5{
+  font-size:1rem;
+  margin:5px 0px;
+  font-family: 'Lato', sans-serif;
+}
+h6{
+  font-size:0.8rem;
+  margin: 5px 0px;
+  font-family: 'Lato', sans-serif;
+}
+/* body{
+  /* margin:0px 130px; */
+  /* width:40%;
+  border:1px solid black;
+} */ */
+main{
+  padding: 5px 30px;
+  background:whitesmoke;
+}
+
+.border{
+  margin: 7px ;
+} 
+ /* .ex{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+}  */
+/* .detail{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:2% 0%;
+}  */
+/* .detail:nth-of-type(2) .detail:nth-of-type(4){
+  background-color: gray;
+} */
+#ex-2 .detail, #ex-4 .detail{
+  background-color: #c7c5ca4a;
+}
+
+
+#edu-2, #edu-4{
+  background-color: #c7c5ca4a;
+}
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+/* @media (max-width: 400px) {
+  .detail{
+  display: grid ;
+  grid-template-columns: 90%;
+  margin:2% 0%;
+}
+} */
+@media (min-width: 480px) {
+  .detail{
+  display: grid ;
+  grid-template-columns:1fr;
+  margin:2% 0%;
+}
+body{
+  width:99%;
+  border:1px solid black;
+}
+main{
+  padding:2%;
+}
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 992px) {
+  .detail{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    margin:2% 0%;
+  }
+  body{
+    width:90%;
+    border:1px solid black;
+  }
+  main{
+    padding:2%;
+  }
+  .detail h6{
+    text-align: right;
+    padding-right:2%;
+  }
+}
+  
+
+
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+  .detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:2% 0%;
+
+  } 
+  html{
+    display:flex;
+    justify-content: center;
+    width:90%;
+    padding:2%;
+    
+    
+  }
+  main{
+    padding:2%;
+  }
+  .detail h6{
+    text-align: left;
+  }
+  }
+
+
